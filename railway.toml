@@ -1,0 +1,21 @@
+[build]
+builder = "nixpacks"
+
+[build.nixpacksConfig]
+aptPkgs = [
+  "libcairo2-dev",
+  "libpixman-1-dev",
+  "libpango1.0-dev",
+  "libjpeg-dev",
+  "libgif-dev",
+  "pkg-config",
+  "build-essential",
+  "python3"
+]
+
+[build.nixpacksConfig.environment]
+NODE_VERSION = "20"
+
+[deploy]
+startCommand = "node -r ./preload.js index.js"
+restartPolicyType = "always"

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حالة البوت</title>
+    <link rel="stylesheet" href="/uptime.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="brand-container">
+            <div class="brand">SIFOANTER</div>
+        </div>
+        <div class="status-box">
+            <h1>البوت يعمل</h1>
+            <p>مدة التشغيل: <span id="uptime">جاري التحميل...</span></p>
+        </div>
+    </div>
+    <script>
+        function fetchUptime() {
+            fetch('/uptime-data')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('uptime').textContent = data.uptime;
+                })
+                .catch(error => {
+                    console.error('Error fetching uptime:', error);
+                    document.getElementById('uptime').textContent = 'خطأ';
+                });
+        }
+        setInterval(fetchUptime, 1000);
+        fetchUptime();
+    </script>
+</body>
+</html>

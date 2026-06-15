@@ -1,0 +1,54 @@
+[
+  {
+    "key": "sb",
+    "value": "9GHSaPgIDNEqr-hHnlZaMng4",
+    "domain": "facebook.com",
+    "path": "/",
+    "hostOnly": false,
+    "creation": "2025-10-09T10:24:31.024Z",
+    "lastAccessed": "2025-10-09T10:24:32.647Z"
+  },
+  {
+    "key": "datr",
+    "value": "4IjmaNyzLX3nbM20K3Hqvc2E",
+    "domain": "facebook.com",
+    "path": "/",
+    "hostOnly": false,
+    "creation": "2025-10-09T10:24:31.028Z",
+    "lastAccessed": "2025-10-09T10:24:32.647Z"
+  },
+  {
+    "key": "c_user",
+    "value": "61581575196040",
+    "domain": "facebook.com",
+    "path": "/",
+    "hostOnly": false,
+    "creation": "2025-10-09T10:24:31.028Z",
+    "lastAccessed": "2025-10-09T10:24:32.647Z"
+  },
+  {
+    "key": "xs",
+    "value": "42%3A6J8ol7ch8X671g%3A2%3A1760002889%3A-1%3A-1",
+    "domain": "facebook.com",
+    "path": "/",
+    "hostOnly": false,
+    "creation": "2025-10-09T10:24:31.030Z",
+    "lastAccessed": "2025-10-09T10:24:32.647Z"
+  },
+  {
+    "key": "fr",
+    "value": "1MRMwHrICVBuQl2YB.AWdIk8mEuCizGAUmBE8JPJ0vhYXqGLq5R_TNhv8hfirO5gV57jI.Bo5lRa..AAA.0.0.Bo541f.AWcV3d1atTs_U2EI5FTHTACOXN8",
+    "expires": "2026-01-07T10:24:31.000Z",
+    "maxAge": 7776000,
+    "domain": "facebook.com",
+    "path": "/",
+    "secure": true,
+    "httpOnly": true,
+    "extensions": [
+      "SameSite=None"
+    ],
+    "hostOnly": false,
+    "creation": "2025-10-09T10:24:31.030Z",
+    "lastAccessed": "2025-10-09T10:24:32.647Z"
+  }
+]
